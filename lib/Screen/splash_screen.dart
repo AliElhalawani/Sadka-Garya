@@ -101,8 +101,11 @@ class MysplashState extends State<MysplashScreen>{
                       Radius.circular(200.0),),
 
                   ),
-                  child: Image.asset('assets/hisn.png',fit: BoxFit.fitHeight,
+                  child: Image.asset('assets/3am eslam.jpeg',width: 50.0,fit: BoxFit.fitHeight,
                   ),
+
+                  // Image.asset('assets/sahbtTamni.jpeg',fit: BoxFit.fitHeight,
+                  // ),
 
                 ),
 
@@ -217,7 +220,7 @@ class MysplashState extends State<MysplashScreen>{
                 // ),
                 Container(
                   alignment: Alignment.center,
-                  child: Text("المرحوم : عماد  عبد الكريم",
+                  child: Text("المرحوم : حمدي عبد اللطيف",
                     style: TextStyle(
                         fontSize: 30,
                         fontWeight: FontWeight.bold,
@@ -225,16 +228,16 @@ class MysplashState extends State<MysplashScreen>{
 
                   ),
                 ),
-                // Container(
-                //   alignment: Alignment.center,
-                //   child: Text(" ",
-                //     style: TextStyle(
-                //         fontSize: 30,
-                //         fontWeight: FontWeight.bold,
-                //         color: Colors.white),
-                //
-                //   ),
-                // ),
+                Container(
+                  alignment: Alignment.center,
+                  child: Text("محمد احمد",
+                    style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
+
+                  ),
+                ),
                 Container(
                   alignment: Alignment.center,
                   child: Text("\n",
